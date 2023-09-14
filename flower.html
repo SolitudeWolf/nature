@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flower</title>
+</head>
+<style>
+  body {
+    background-color: #313030;
+  }
+
+  .returnBtn {
+    position: absolute;
+    font-size: 20px;
+    padding: 0 5px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: aliceblue;
+  }
+
+  .returnBtn:hover {
+    background-color: #313030;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    top: 5%;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    background-color: #313030;
+    overflow: hidden;
+  }
+
+  .spring {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: url('picture/chun2.jpg');
+    background-size: cover;
+    display: grid;
+    transition: 0.5s linear;
+  }
+
+  .summer {
+    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-image: url('picture/xia1.jpg');
+    background-size: cover;
+    display: grid;
+    transition: 0.5s linear;
+  }
+
+  .autumn {
+    position: relative;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-image: url('picture/qiu.jpg');
+    background-size: cover;
+    display: grid;
+    transition: 0.5s linear;
+  }
+
+  .winter {
+    position: relative;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-image: url('picture/dong1.jpg');
+    background-size: cover;
+    display: grid;
+    transition: 0.5s linear;
+  }
+
+  .font1,
+  .font2,
+  .font3,
+  .font4 {
+    background-color: white;
+    opacity: 0.3;
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    height: 100%;
+    top: 45%;
+    font-size: 50px;
+    font-family: Georgia, serif;
+    font-style: oblique;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .spring:hover .font1 {
+    opacity: 0.9;
+  }
+
+  .spring:hover {
+    cursor: pointer;
+    background-image: none;
+    background-color: white;
+  }
+
+  .summer:hover .font2 {
+    opacity: 0.9;
+  }
+
+  .summer:hover {
+    cursor: pointer;
+    background-image: none;
+    background-color: white;
+  }
+
+  .autumn:hover .font3 {
+    opacity: 0.9;
+  }
+
+  .autumn:hover {
+    cursor: pointer;
+    background-image: none;
+    background-color: white;
+  }
+
+  .winter:hover .font4 {
+    opacity: 0.9;
+  }
+
+  .winter:hover {
+    cursor: pointer;
+    background-image: none;
+    background-color: white;
+  }
+  @keyframes theme{
+    from{
+      bottom: -8%;
+    }
+    to{
+      bottom: 0;
+    }
+  }
+  .theme{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 8%;
+    bottom: 0;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 10px;
+    color: aliceblue;
+    animation: theme 2s linear;
+    cursor: pointer;
+  }
+  .theme span:hover{
+    transition: 1s linear;
+    letter-spacing: 50px;
+    font-size: 60px;
+  }
+</style>
+
+<body>
+<div class="returnBtn" onclick="returnClick()" type="button">
+  < </div>
+<div class="container">
+  <div class="spring">
+    <div class="font1">SPRING<br><br>春</div>
+  </div>
+  <div class="summer">
+    <div class="font2">SUMMER<br><br>夏</div>
+  </div>
+  <div class="autumn">
+    <div class="font3">AUTUMN<br><br>秋</div>
+  </div>
+  <div class="winter">
+    <div class="font4">WINTER<br><br>冬</div>
+  </div>
+</div>
+<div class="informBox"></div>
+<p class="theme"><span>FLOWER</span></p>
+</body>
+<script src="flower.js"></script>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>build</title>
+</head>
+<style>
+    body {
+        z-index: -2;
+        background: #171f26;
+        overflow: hidden;
+    }
+
+    #stars {
+        position: absolute;
+        z-index: -2;
+    }
+
+    .returnBtn {
+        z-index: 3;
+        position: absolute;
+        font-size: 25px;
+        width: 30px;
+        text-align: center;
+        border-radius: 5px;
+        background-color: #1a232a;
+        color: #cccccc;
+        cursor: pointer;
+    }
+
+    .returnBtn:hover {
+        background-color: white;
+        color: black;
+        border: black 1px solid;
+    }
+
+    @keyframes move1 {
+        from {
+            top: -60%;
+        }
+
+        to {
+            top: 10%;
+        }
+    }
+
+    img {
+        cursor: pointer;
+        transition: 0.5s linear;
+    }
+
+    @keyframes move2 {
+        from {
+            top: -60%;
+        }
+
+        to {
+            top: 5%;
+        }
+    }
+
+    @keyframes move3 {
+        from {
+            bottom: -60%;
+        }
+
+        to {
+            bottom: 20%;
+        }
+    }
+
+    img {
+        cursor: pointer;
+        transition: 0.5s linear;
+    }
+
+    .img1 {
+        position: absolute;
+        top: 10%;
+        left: 25%;
+        height: 60%;
+        width: 20%;
+        background-image: url("picture/build6.jpg");
+        background-size: cover;
+        border: none;
+        z-index: 3;
+        animation: move1 1.5s linear;
+    }
+
+    .img1:hover {
+        z-index: 5;
+        border: white solid 1px;
+        box-shadow: 0 4px 4px 3px white;
+    }
+
+    .img2 {
+        position: absolute;
+        top: 5%;
+        right: 25%;
+        height: 60%;
+        width: 20%;
+        background-image: url("picture/build7.jpg");
+        background-size: cover;
+        border: none;
+        z-index: 3;
+        animation: move2 1.5s linear;
+    }
+
+    .img2:hover {
+        z-index: 5;
+        border: white solid 1px;
+        box-shadow: 0 4px 4px 3px white;
+    }
+
+    .img3 {
+        position: absolute;
+        left: 40%;
+        bottom: 20%;
+        height: 60%;
+        width: 20%;
+        background-image: url("picture/build8.jpg");
+        background-size: cover;
+        border: none;
+        z-index: 4;
+        animation: move3 1.5s linear;
+    }
+
+    .img3:hover {
+        z-index: 5;
+        border: white solid 1px;
+        box-shadow: 0 4px 4px 3px white;
+    }
+
+    @keyframes font1 {
+        from {
+            opacity: 0;
+            transform: rotate(-45deg);
+        }
+
+        to {
+            opacity: 0.8;
+            transform: rotate(0deg);
+        }
+    }
+
+    @keyframes font2 {
+        from {
+            opacity: 0;
+            transform: rotate(45deg);
+        }
+
+        to {
+            opacity: 0.8;
+            transform: rotate(0deg);
+        }
+    }
+
+    .leftFont {
+        height: 80%;
+        width: 20%;
+        left: 2%;
+        top: 10%;
+        position: absolute;
+        font-size: 25px;
+        font-family: LiSu;
+        background-color: #cccccc;
+        color: white;
+        opacity: 0.7;
+        transform-origin: left bottom;
+        animation: font1 1.5s linear;
+    }
+
+    .rightFont {
+        height: 80%;
+        width: 20%;
+        right: 2%;
+        top: 10%;
+        position: absolute;
+        font-size: 25px;
+        font-family: LiSu;
+        background-color: #cccccc;
+        color: white;
+        opacity: 0.7;
+        transform-origin: right bottom;
+        animation: font2 1.5s linear;
+    }
+
+    .rightFont:hover,
+    .leftFont:hover {
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    @keyframes move {
+        from {
+            visibility: hidden;
+            bottom: -10%;
+        }
+
+        to {
+            visibility: visible;
+            bottom: 1%;
+        }
+    }
+
+    .theme {
+        height: 10%;
+        bottom: 1%;
+        position: absolute;
+        width: 100%;
+        color: aliceblue;
+        font-size: 50px;
+        letter-spacing: 20px;
+        text-align: center;
+        border: none;
+        animation: move 2.5s linear;
+    }
+
+    .theme span:hover {
+        cursor: pointer;
+        color: cornflowerblue;
+        text-shadow: 0 0 0 , 0 0 10px white, 0 0 10px white, 0 0 10px white, 0 0 15px white, 0 0 20px white;
+    }
+</style>
+
+<body>
+<canvas id="stars"></canvas>
+<div class="returnBtn" onclick="returnClick()">
+    < </div>
+<img class="img1">
+<img class="img2">
+<img class="img3">
+<div class="leftFont">Fingers gently caressing the cool rocks, especially wonderful, copper fences with
+    graceful bodies outside the window, branches like sunflower leaves with slightly curled edges on the
+    head, rigid buildings that blend in with the woods next to them, the paint of the gate is corroded by
+    antiquity, but it has a sense of vicissitudes,
+    and the golden doorknob shimmers in the sunlight, although it is small but seems to be able to shoot
+    into people's hearts.
+</div>
+<div class="rightFont">In the south of the Jiangnan with apricot blossoms and spring rain, the exquisite and
+    handsome loft and simple and elegant bamboo building maintain harmony with nature; In the sparsely
+    populated northern part of Cyprus, the tiled houses with eaves and ridges show the solemnity of life; In
+    the vast north of China,
+    the flat-roofed houses are as simple and rich as the Great Plain.
+</div>
+<p class="theme"><span>BUILDINGS</span></p>
+</body>
+<script src="build.js">
+</script>
+
+</html>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f8537f32-04e2-49de-92a0-3ee8fed0d865" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feiyi summer-test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flower.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flower.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homePage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loading.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logIn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainWindow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/montes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/montes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocean.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/build1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/build2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/build3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/build4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/build5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/build6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/build7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/build8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/build9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/caoh1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/caoh2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/caoh3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/caoh4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/caoh5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/caoh6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/caos1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/caos2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/caos3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/caos4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/chun.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/chun2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/dong1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/dongt1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/fengjingh1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/fengjingh2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/fengjingh3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/fengjingh4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/fengjingh5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/fengjings1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/fengjings2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/flower1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/flower10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/flower11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/flower12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/flower2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/flower3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/flower4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/flower5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/flower6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/flower7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/flower8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/flower9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/qiu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/seah1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/seah2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/seah3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/seah4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/seah5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/seah6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/seah7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/seashu1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/seashu2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/seashu3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/shanh1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/shanh2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/shanh3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/shanh4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/shanh5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/shanh6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/shanh7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/shanh8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/shans1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/shans2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/shans3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/sign-up.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/sky1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/sky2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/sky3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/sky4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/sky5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/sky6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/sky7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/sky8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/sky9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/touxiang1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/touxiang2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/touxiang3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/view1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/view10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/view11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/view12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/view13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/view14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/view15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/view2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/view3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/view4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/view5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/view6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/view7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/view8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/view9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/xia1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/xk1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/xk2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/xk3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/xk4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/xk5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/xsh1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/xsh2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/xsh3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/xsh4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/xsh5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/xss1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/xss2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/xss3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/xss4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture/xss5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signUp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/signUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/veld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/veld.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SEjJedGwqqQd46XGxENvC3SmpU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/idea program/nature_test&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\idea program\nature_test\picture" />
+      <recent name="C:\idea program\feiyi summer-test\picture" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8537f32-04e2-49de-92a0-3ee8fed0d865" name="Changes" comment="" />
+      <created>1688718572623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688718572623</updated>
+      <workItem from="1688718574953" duration="4974000" />
+      <workItem from="1688963332961" duration="5493000" />
+      <workItem from="1689737420184" duration="302000" />
+      <workItem from="1689737728720" duration="221000" />
+      <workItem from="1689738182985" duration="531000" />
+      <workItem from="1689739025265" duration="17000" />
+      <workItem from="1689739055052" duration="150000" />
+      <workItem from="1689739265437" duration="442000" />
+      <workItem from="1689782588663" duration="41000" />
+      <workItem from="1689782637902" duration="88000" />
+      <workItem from="1690815355683" duration="35000" />
+      <workItem from="1690971919338" duration="26000" />
+      <workItem from="1691296575017" duration="1089000" />
+      <workItem from="1691312142469" duration="315000" />
+      <workItem from="1691312551108" duration="30000" />
+      <workItem from="1691312590828" duration="5612000" />
+      <workItem from="1691593449208" duration="212000" />
+      <workItem from="1691911326591" duration="390000" />
+      <workItem from="1692121368094" duration="1951000" />
+      <workItem from="1692164821378" duration="7274000" />
+      <workItem from="1692202787830" duration="333000" />
+      <workItem from="1693069833127" duration="376000" />
+      <workItem from="1693901840161" duration="990000" />
+      <workItem from="1694074324997" duration="495000" />
+      <workItem from="1694077708459" duration="1806000" />
+      <workItem from="1694143537085" duration="696000" />
+      <workItem from="1694159578075" duration="890000" />
+      <workItem from="1694523488068" duration="660000" />
+      <workItem from="1694701151106" duration="126000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

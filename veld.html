@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>veld</title>
+  <link rel="stylesheet" href="mainWindow.html">
+</head>
+<style>
+  html,
+  body {
+    padding: 0;
+    background-image: linear-gradient(to right, rgb(195, 231, 221), white);
+  }
+
+  .returnBtn {
+    position: absolute;
+    left: 20px;
+    height: 30px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    color: azure;
+    background-color: rgba(95, 158, 160, 0.721);
+    z-index: 3;
+  }
+
+  .returnBtn:hover {
+    cursor: pointer;
+    color: black;
+    background-color: cadetblue;
+  }
+
+  #contain1 {
+    z-index: 2;
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    border-bottom: solid 5px rgb(115, 170, 115);
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    display: flex;
+  }
+
+  .intro1 {
+    width: 20%;
+    padding-left: 10%;
+    top: 10%;
+    position: relative;
+    padding-top: 30px;
+  }
+
+  .theme,
+  .place {
+    border-bottom: 1px solid black;
+    margin-bottom: 70px;
+    font-family: LiSu;
+  }
+
+  .theme:hover,
+  .place:hover {
+    cursor: pointer;
+    color: cadetblue;
+  }
+
+  .img_box {
+    margin-left: 5%;
+    height: 100%;
+    width: 30%;
+    position: relative;
+  }
+
+  .img {
+    position: relative;
+    height: 90%;
+    width: 87%;
+    border: 1px solid gray;
+    border-radius: 350px;
+    background-image: url("picture/caoh2.jpg");
+    background-size: cover;
+    box-shadow: 0 3px 6px 0 #111;
+  }
+
+  .intro2 {
+    width: 20%;
+    top: 10%;
+    position: relative;
+    padding-top: 30px;
+  }
+
+  .photos {
+    margin-top: 30%;
+    border-bottom: 1px solid black;
+    margin-bottom: 70px;
+    font-family: LiSu;
+  }
+
+  .photos:hover {
+    cursor: pointer;
+    color: cadetblue;
+  }
+
+  .coverbox {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 0.8;
+    z-index: 2;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .theme {
+    margin-bottom: 120px;
+  }
+
+  #contain2 {
+    z-index: 2;
+    width: 100%;
+    height: 38%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+  }
+
+  .img1 {
+    position: absolute;
+    width: 30%;
+    height: 90%;
+    border: 1px solid black;
+    background-image: url("picture/caoh4.jpg");
+    background-size: cover;
+    left: 5%;
+    top: 5%;
+    margin: auto;
+    display: flex;
+    display: block;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: all 1s;
+    z-index: 2;
+  }
+
+  .img1:hover +.img1_font {
+    left: 33%;
+  }
+
+  .img1_font {
+    position: absolute;
+    width: 30%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+    line-height: 250px;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    background-color: #111;
+    font-family: LiSu;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    display: block;
+    transition: all 1s;
+  }
+  .img2 {
+    position: absolute;
+    width: 30%;
+    height: 90%;
+    border: 1px solid black;
+    background-image: url("picture/caoh6.jpg");
+    background-size: cover;
+    right: 5%;
+    top: 5%;
+    display: flex;
+    display: block;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: all 1s;
+    z-index: 2;
+  }
+
+  .img2_font {
+    position: absolute;
+    width: 30%;
+    height: 90%;
+    top: 5%;
+    right: 5%;
+    line-height: 250px;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    background-color: #111;
+    font-family: LiSu;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    display: block;
+    transition: all 1s;
+  }
+  .img2:hover +.img2_font {
+    right: 33%;
+  }
+
+  .img1:hover,
+  .img2:hover {
+    transform: rotateY(25deg);
+    box-shadow: 0 0 10px rgb(61, 60, 60);
+  }
+</style>
+
+<body>
+
+<button class="returnBtn" onclick="veldClick()">return</button>
+<div id="contain1">
+  <div class="intro1">
+    <p class="theme">VELD</p>
+    <p class="place">Zoige Grassland、<br>Eurasian Steppe ...</p>
+  </div>
+  <div class="img_box">
+    <div class="img"></div>
+  </div>
+  <div class="intro2">
+    <p class="photos">Photos</p>
+  </div>
+</div>
+<div id="contain2">
+  <div class="coverbox">
+    <img class="img1">
+    <div class="img1_font">Find a pure land in the midst of your busy life.</div>
+    <img class="img2">
+    <div class="img2_font">Enjoy nature, blend in with nature, feel nature.</div>
+  </div>
+</div>
+</body>
+<script src="veld.js"></script>
+</html>

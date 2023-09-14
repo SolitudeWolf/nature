@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ocean</title>
+  <link rel="stylesheet" href="mainWindow.html">
+</head>
+<style>
+  body {
+    background-color: #000;
+  }
+
+  #font {
+    position: absolute;
+    color: rgb(151, 218, 218);
+    font-size: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    writing-mode: vertical-rl;
+    width: 200px;
+    margin-left: 45%;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  #font:hover {
+    color: aliceblue;
+  }
+
+  .return {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    writing-mode: initial;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: LiSu;
+    height: 30px;
+    color: #1a232a;
+    background-color: aliceblue;
+  }
+
+  .return:hover {
+    background-color: beige;
+  }
+
+  @keyframes opacityChange {
+    50% {
+      opacity: .5;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes rotate {
+    100% {
+      transform: rotate(1turn);
+    }
+  }
+  .beijing {
+    overflow: hidden;
+    position: absolute;
+    height: 45%;
+    width: 40%;
+    padding: 7px;
+    border-radius: 8px;
+    background-color: #000;
+    z-index: 1;}
+
+  .beijing::after,
+  .beijing::before {
+     box-sizing: border-box;
+   }
+
+  .beijing::before {
+     content: '';
+     position: absolute;
+     z-index: -1;
+     left: -50%;
+     top: -50%;
+     width: 200%;
+     height: 200%;
+     background-position: 0 0;
+     background-image: conic-gradient(transparent, rgb(183, 242, 255), transparent 20%);
+     animation: rotate 5s linear infinite;
+   }
+
+  .beijing::after {
+     content: '';
+     position: absolute;
+     z-index: -1;
+     /*left: calc(var(--borderWidth) / 2);
+     top: calc(var(--borderWidth) / 2);
+     width: calc(100% - var(--borderWidth));
+     height: calc(100% - var(--borderWidth));*/
+     background: #000;
+     border-radius: 5px;
+   }
+
+  .img1 {
+    height: 100%;
+    width: 100%;
+    background-image: url("picture/seah4.jpg");
+    background-size: cover;
+    z-index: 3;
+  }
+
+  @keyframes imgFont1 {
+    0% {
+      transform: rotate(-45deg);
+    }
+
+    100% {
+      transform: rotate(0);
+    }
+  }
+  @keyframes imgFont2 {
+    0% {
+      transform: rotate(-45deg);
+    }
+
+    100% {
+      transform: rotate(0);
+    }
+  }
+  .img1:hover {
+    cursor: pointer;
+  }
+
+  .img_font1 {
+    position: absolute;
+    bottom: 5%;
+    left: 1%;
+    height: 45%;
+    width: 40%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(166, 197, 197);
+    background-color: #1a232a;
+    opacity: 0.7;
+    z-index: -3;
+    transform-origin: 0 0;
+    animation: imgFont1 1.5s;
+  }
+  #font:hover .img_font1 {
+    visibility: hidden;
+    animation: imgFont1 1s;
+  }
+  .img_font2 {
+    position: absolute;
+    top: 5%;
+    right: 1%;
+    height: 45%;
+    width: 40%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(166, 197, 197);
+    background-color: #1a232a;
+    opacity: 0.7;
+    z-index: -3;
+    transform-origin: right bottom;
+    animation: imgFont2 1.5s;
+  }
+
+  .beijing2 {
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 45%;
+    width: 40%;
+    padding: 7px;
+    border-radius: 8px;
+    background-color: #000;
+    z-index: 1;}
+
+  .beijing2::after,
+  .beijing2::before {
+     box-sizing: border-box;
+   }
+
+  .beijing2::before {
+     content: '';
+     position: absolute;
+     z-index: -2;
+     left: -50%;
+     top: -50%;
+     width: 200%;
+     height: 200%;
+     background-position: 0 0;
+     background-image: conic-gradient(transparent, rgb(183, 242, 255), transparent 20%);
+     animation: rotate 5s linear infinite;
+   }
+
+  .beijing2::after {
+     content: '';
+     position: absolute;
+     z-index: -1;
+    /* left: calc(var(--borderWidth) / 2);
+     top: calc(var(--borderWidth) / 2);
+     width: calc(100% - var(--borderWidth));
+     height: calc(100% - var(--borderWidth));*/
+     background: #000;
+     border-radius: 5px;
+   }
+
+
+  .img2 {
+    height: 100%;
+    width: 100%;
+    background-image: url("picture/seah7.jpg");
+    background-size: cover;
+    z-index: 2;
+  }
+
+  .img2:hover {
+    cursor: pointer;
+  }
+
+</style>
+
+<body>
+<div id="font">OCEAN<button class="return" onclick="returnClick()" type="button">return</button></div>
+<div id="contain1">
+  <div class="beijing">
+    <div class="img1"></div>
+  </div>
+  <div class="img_font1">Everyone who comes to the beach late at night, the soul is a child who has undressed.<br>
+    I will never forget the refreshing dampness, the sea breeze with the smell of the sea that talks about it,
+    the feeling of blowing every part of people's hair, cheeks, and body.
+  </div>
+</div>
+<div id="contain2">
+  <div class="beijing2">
+    <div class="img2"></div>
+  </div>
+  <div class="img_font2">The turquoise sea, as soft as silk, ripples slightly. From a high place, the smoke waves
+    are vast and endless; And sometimes, the sea water is at your feet, whispering.</div>
+</div>
+</body>
+<script src="ocean.js"></script>
+</html>
